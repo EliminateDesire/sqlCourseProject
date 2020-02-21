@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>htmltest</title>
+    <link rel="stylesheet" type="text/css" href="css/user&admin.css">
+    <link rel="stylesheet" type="text/css" href="css/form.css">
+    <style>
+        body {
+            background-image: url(images/bg.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="title">
+            <span>用户操作界面</span>
+        </div>
+        <nav>
+            <div class="userinfo">
+                <ul>
+<!--                    <li><%=user.getUsername() %></li>-->
+<!--                    <%&#45;&#45;					<li><%=user.getLevel() %></li>&#45;&#45;%>-->
+                    <li><a href="UserExitServlet">退出登录</a></li>
+                    <li><a href="login.html">返回首页</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="select">
+                <h3>请选择操作</h3>
+                <ul id="accordion" class="accordion">
+                    <li><div class="link"><a href="selectCourse.jsp">选课</a></div></li>
+                    <li><div class="link"><a href="login.html">退课</a></div></li>
+                    <li><div class="link"><a href="stuCourseQuery.jsp">我的课程</a></div></li>
+                    <li><div class="link"><a href="stuGradeQuery.jsp">成绩查询</a></div></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <div id="result" class="result">
+                <div class="table-wrapper">
+                    <table class="fl-table">
+                        <thead>
+                        <tr>
+                            <th>Header 1</th><th>Header 2</th><th>Header 3</th><th>Header 4</th><th>Header 5</th>
+                        </tr>
+                        </thead>
+                        <tr>
+                            <td>1</td><td>Content</td><td>Content</td><td>Content</td><td>Content</td>
+                        </tr>
+                        <tr>
+                            <td>2</td><td>Content</td><td>Content</td><td>Content</td><td>Content</td>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="MainContainer">
+        <div  id="main" class="main">
+            内容
+        </div>
+    </div>
+</body>
+</html>

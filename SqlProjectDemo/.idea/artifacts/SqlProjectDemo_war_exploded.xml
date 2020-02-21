@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="SqlProjectDemo:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/SqlProjectDemo_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="SqlProjectDemo/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="SqlProjectDemo" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
