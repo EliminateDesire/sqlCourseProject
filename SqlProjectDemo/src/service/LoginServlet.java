@@ -23,17 +23,16 @@ public class LoginServlet extends HttpServlet {
         User user = userDao.login(username, password);
         //判断是否登录成功
         if(user != null){//成功
-          //  level = user.getLevel();
-           // if(level.equals("用户")){
                 request.getSession().setAttribute("user", user);//将用户对象放到session中
-                //转发到user.jsp中
+
+             if(user.getUsername().length() == 8)
+                 //学生登录
                 request.getRequestDispatcher("user.jsp").forward(request, response);
-//            }
-//            else{
-//                request.getSession().setAttribute("admin", user);//将管理员对象放到session中
-//                //转发到admin.jsp中
-//                request.getRequestDispatcher("admin.jsp").forward(request, response);
-//            }
+             else {
+                 //管理员登录
+                 request.getRequestDispatcher("admin.jsp").forward(request, response);
+             }
+
         }else {//失败
             request.setAttribute("info"," 错误:用户名或密码错误！");
             request.getRequestDispatcher("message.jsp").forward(request, response);

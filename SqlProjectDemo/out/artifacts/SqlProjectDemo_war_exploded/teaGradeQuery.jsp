@@ -1,8 +1,8 @@
 <%--
   Created by IntelliJ IDEA.
   User: gg
-  Date: 2020/2/21
-  Time: 20:59
+  Date: 2020/2/22
+  Time: 19:29
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -10,8 +10,6 @@
 <%@ page import="java.util.ArrayList" %>
 <%@ page import="Dao.queryDao" %>
 <%@ page import="bean.courseGrade" %>
-<%@ page import="bean.Course" %>
-<%@ page import="Dao.operateDao" %>
 
 <!DOCTYPE HTML>
 <html lang="zh">
@@ -19,7 +17,7 @@
     <meta charset="UTF-8">
     <title>用户操作界面</title>
     <link rel="stylesheet" type="text/css" href="../css/user&admin.css">
-    <link rel="icon" type="image/x-ico" href="images/stu.ico">
+    <link rel="icon" type="image/x-ico" href="../images/stu.ico">
     <link rel="stylesheet" type="text/css" href="../css/form.css">
     <style>
         body {
@@ -38,7 +36,7 @@
 %>
 <header>
     <div class="title">
-        <span>用户操作界面</span>
+        <span>查询成绩界面</span>
     </div>
     <nav>
         <div class="userinfo">
@@ -55,7 +53,7 @@
     <div class="container">
         <div class="select">
             <ul id="accordion" class="accordion">
-                <li><div class="link"><a href="user.jsp">返回</a></div></li>
+                <li><div class="link"><a href="admin.jsp">返回</a></div></li>
             </ul>
         </div>
         <div id="result" class="result">
@@ -63,35 +61,26 @@
                 <table class="fl-table">
                     <thead>
                     <tr>
-                        <th>课程号</th><th>课程名</th><th>教师号</th><th>教师</th><th>学分</th><th>上课时间</th><th>上课地点</th>
+                        <th>学号</th><th>姓名</th><th>课程号</th><th>课程名</th><th>分数</th>
                     </tr>
                     </thead>
                     <%
-                        ArrayList<Course>list = operateDao.allCourseQuery();
-                        for(Course x:list)
+                        ArrayList<courseGrade>list = queryDao.teaGradeQuery(user.getUsername());
+                        for(courseGrade x:list)
                         {
                     %>
                     <tr>
+                        <td><%=x.getStudentNum()%></td>
+                        <td><%=x.getStudentName()%></td>
                         <td><%=x.getCourseNum()%></td>
                         <td><%=x.getCourseName()%></td>
-                        <td><%=x.getTeacherNum()%></td>
-                        <td><%=x.getTeacherName()%></td>
-                        <td><%=x.getCourseCredit()%></td>
-                        <td><%=x.getCourseTime()%></td>
-                        <td><%=x.getCoursePlace()%></td>
+                        <td><%=x.getCourseGrade()%></td>
                     </tr>
                     <%
                         }
                     %>
                 </table>
             </div>
-
-            <form  class="form" action="selectServlet" method="post">
-                <h3>选课</h3>
-                <input type="text"  name="courseNum" value placeholder="请输入课号" required="required">
-                <input type="text" name="teacherNum" value placeholder="请输入教师号" required="required">
-                <input id="submit" type="submit" name="submit" value="确定">
-            </form>
         </div>
     </div>
 </main>

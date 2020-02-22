@@ -8,28 +8,28 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import Dao.operateDao;
+import Dao.queryDao;
 import Dao.userDao;
 import bean.User;
 import com.mysql.cj.Session;
 
-@WebServlet("/selectServlet")
-public class selectServlet extends HttpServlet {
+@WebServlet("/submitServlet")
+public class submitServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.setCharacterEncoding("utf-8");
-        String courseNum = request.getParameter("courseNum");
-        String teacherNum = request.getParameter("teacherNum");
         User user = (User) request.getSession().getAttribute("user");
-        String username = user.getUsername();
-        if(operateDao.selectSuccess(courseNum, teacherNum, username)){//成功
+        String courseNum = request.getParameter("courseNum");
+        String studentNum = request.getParameter("studentNum");
+        int courseGrade = Integer.valueOf(request.getParameter("courseGrade")).intValue();
+        if(operateDao.submitSuccess(courseNum,studentNum,courseGrade,user.getUsername())){//成功
             //  level = user.getLevel();
-            request.getRequestDispatcher("stuCourseQuery.jsp").forward(request, response);
+            request.getRequestDispatcher("teaGradeSubmit.jsp").forward(request, response);
         }else {//失败
-            request.setAttribute("info"," 该课程不存在或已经选择此课程！");
+            request.setAttribute("info"," 上传失败！");
             request.getRequestDispatcher("message.jsp").forward(request, response);
         }
     }
-
 }
 

@@ -7,7 +7,6 @@ public class User {
     private String username; // 用户名
     private String password; // 登录密码
 
-
     public String getUsername() {
         return username;
     }
@@ -22,5 +21,9 @@ public class User {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public String getLevel(){
+        return username.length() == 8 ? "用户" : "管理员";
     }
 }

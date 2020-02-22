@@ -35,7 +35,7 @@
 			<div class="userinfo">
 				<ul>
 					<li><%=user.getUsername() %></li>
-<%--					<li><%=user.getLevel() %></li>--%>
+					<li><%=user.getLevel() %></li>
 					<li><a href="UserExitServlet">退出登录</a></li>
 					<li><a href="login.html">返回首页</a></li>
 				</ul>
@@ -54,7 +54,7 @@
 				<h3>请选择操作</h3>
 				<ul id="accordion" class="accordion">
 					<li><div class="link"><a href="selectCourse.jsp">选课</a></div></li>
-					<li><div class="link"><a href="login.html">退课</a></div></li>
+					<li><div class="link"><a href="quitCourse.jsp">退课</a></div></li>
 					<li><div class="link"><a href="stuCourseQuery.jsp">我的课程</a></div></li>
 					<li><div class="link"><a href="stuGradeQuery.jsp">成绩查询</a></div></li>
 				</ul>

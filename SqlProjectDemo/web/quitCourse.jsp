@@ -1,8 +1,8 @@
 <%--
   Created by IntelliJ IDEA.
   User: gg
-  Date: 2020/2/21
-  Time: 20:59
+  Date: 2020/2/22
+  Time: 12:01
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -63,11 +63,11 @@
                 <table class="fl-table">
                     <thead>
                     <tr>
-                        <th>课程号</th><th>课程名</th><th>教师号</th><th>教师</th><th>学分</th><th>上课时间</th><th>上课地点</th>
+                        <th>课程号</th><th>课程名</th><th>教师号</th><th>教师</th><th>学分</th>
                     </tr>
                     </thead>
                     <%
-                        ArrayList<Course>list = operateDao.allCourseQuery();
+                        ArrayList<Course>list = operateDao.haveSelectQuery(user.getUsername());
                         for(Course x:list)
                         {
                     %>
@@ -77,8 +77,6 @@
                         <td><%=x.getTeacherNum()%></td>
                         <td><%=x.getTeacherName()%></td>
                         <td><%=x.getCourseCredit()%></td>
-                        <td><%=x.getCourseTime()%></td>
-                        <td><%=x.getCoursePlace()%></td>
                     </tr>
                     <%
                         }
@@ -86,10 +84,10 @@
                 </table>
             </div>
 
-            <form  class="form" action="selectServlet" method="post">
-                <h3>选课</h3>
-                <input type="text"  name="courseNum" value placeholder="请输入课号" required="required">
-                <input type="text" name="teacherNum" value placeholder="请输入教师号" required="required">
+            <form  class="form" action="quitServlet" method="post">
+                <h3>退课</h3>
+                <input type="text" autofocus="autofocus" name="courseNum" value placeholder="请输入课号" required="required">
+                <input type="password" name="teacherNum" value placeholder="请输入教师号" required="required">
                 <input id="submit" type="submit" name="submit" value="确定">
             </form>
         </div>

@@ -12,8 +12,8 @@ import Dao.userDao;
 import bean.User;
 import com.mysql.cj.Session;
 
-@WebServlet("/selectServlet")
-public class selectServlet extends HttpServlet {
+@WebServlet("/quitServlet")
+public class quitServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -22,11 +22,11 @@ public class selectServlet extends HttpServlet {
         String teacherNum = request.getParameter("teacherNum");
         User user = (User) request.getSession().getAttribute("user");
         String username = user.getUsername();
-        if(operateDao.selectSuccess(courseNum, teacherNum, username)){//成功
+        if(operateDao.quitSuccess(courseNum, teacherNum, username)){//成功
             //  level = user.getLevel();
-            request.getRequestDispatcher("stuCourseQuery.jsp").forward(request, response);
+            request.getRequestDispatcher("quitCourse.jsp").forward(request, response);
         }else {//失败
-            request.setAttribute("info"," 该课程不存在或已经选择此课程！");
+            request.setAttribute("info"," 错误:您未选此课程或此课程！");
             request.getRequestDispatcher("message.jsp").forward(request, response);
         }
     }

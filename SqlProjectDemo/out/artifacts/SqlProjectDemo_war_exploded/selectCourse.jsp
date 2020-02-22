@@ -88,8 +88,8 @@
 
             <form  class="form" action="selectServlet" method="post">
                 <h3>选课</h3>
-                <input type="text" autofocus="autofocus" name="courseNum" value placeholder="请输入课号" required="required">
-                <input type="password" name="teacherNum" value placeholder="请输入教师号" required="required">
+                <input type="text"  name="courseNum" value placeholder="请输入课号" required="required">
+                <input type="text" name="teacherNum" value placeholder="请输入教师号" required="required">
                 <input id="submit" type="submit" name="submit" value="确定">
             </form>
         </div>

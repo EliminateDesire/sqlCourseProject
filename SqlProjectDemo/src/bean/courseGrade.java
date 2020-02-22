@@ -4,8 +4,27 @@ public class courseGrade  {
     private String courseNum;
     private String courseName;
     private String teacher;
+    private String studentNum;
+    private String studentName;
     private int courseCredit;
     private int courseGrade;
+
+    public String getStudentNum() {
+        return studentNum;
+    }
+
+    public void setStudentNum(String studentNum) {
+        this.studentNum = studentNum;
+    }
+
+    public String getStudentName() {
+        return studentName;
+    }
+
+    public void setStudentName(String studentName) {
+        this.studentName = studentName;
+    }
+
 
     public int getCourseGrade() {
         return courseGrade;

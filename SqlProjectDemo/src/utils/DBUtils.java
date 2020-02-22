@@ -8,6 +8,7 @@ public class DBUtils {
      */
     private static final String dbUserName = "root";
     private static final String dbPassword = "123456";
+    //这Java连数据库的语句也太jb长了
     private static final String dbURL = "jdbc:mysql://127.0.0.1:3306/school?useUnicode=true&useSSL=false&characterEncoding=UTF-8&serverTimezone=GMT%2B8&allowPublicKeyRetrieval=true";
 
 //    public static Connection getConnection() throws Exception{
