@@ -7,50 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9dd787b4-dc61-477c-89d6-5a966980742b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/tea.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/openServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/quitServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/submitServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/quitCourse.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/teaCourseQuery.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/teaGradeQuery.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/teaGradeSubmit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/teaOpenCourse.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SqlProjectDemo_war_exploded/WEB-INF/classes/Dao/operateDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SqlProjectDemo_war_exploded/WEB-INF/classes/Dao/operateDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SqlProjectDemo_war_exploded/WEB-INF/classes/Dao/queryDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SqlProjectDemo_war_exploded/WEB-INF/classes/Dao/queryDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SqlProjectDemo_war_exploded/WEB-INF/classes/bean/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SqlProjectDemo_war_exploded/WEB-INF/classes/bean/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SqlProjectDemo_war_exploded/WEB-INF/classes/bean/courseGrade.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SqlProjectDemo_war_exploded/WEB-INF/classes/bean/courseGrade.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SqlProjectDemo_war_exploded/WEB-INF/classes/service/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SqlProjectDemo_war_exploded/WEB-INF/classes/service/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SqlProjectDemo_war_exploded/WEB-INF/classes/service/selectServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SqlProjectDemo_war_exploded/WEB-INF/classes/service/selectServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SqlProjectDemo_war_exploded/WEB-INF/classes/utils/DBUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SqlProjectDemo_war_exploded/WEB-INF/classes/utils/DBUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SqlProjectDemo_war_exploded/htmltest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SqlProjectDemo_war_exploded/selectCourse.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SqlProjectDemo_war_exploded/selectCourse.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SqlProjectDemo_war_exploded/user.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SqlProjectDemo_war_exploded/user.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SqlProjectDemo/Dao/operateDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SqlProjectDemo/Dao/operateDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SqlProjectDemo/Dao/queryDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SqlProjectDemo/Dao/queryDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SqlProjectDemo/META-INF/SqlProjectDemo.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SqlProjectDemo/bean/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SqlProjectDemo/bean/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SqlProjectDemo/bean/courseGrade.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SqlProjectDemo/bean/courseGrade.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SqlProjectDemo/service/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SqlProjectDemo/service/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SqlProjectDemo/service/selectServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SqlProjectDemo/service/selectServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SqlProjectDemo/utils/DBUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SqlProjectDemo/utils/DBUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/grade.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/grade.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/selectCourse.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/selectCourse.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/stu.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/stu.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/user.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/user.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dao/operateDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dao/operateDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dao/queryDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dao/queryDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bean/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bean/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bean/courseGrade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bean/courseGrade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/selectServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/selectServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/DBUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/DBUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/htmltest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/selectCourse.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/selectCourse.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/user.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/user.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -365,7 +322,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -389,7 +346,7 @@
       <workItem from="1582206598863" duration="1481000" />
       <workItem from="1582210090522" duration="1071000" />
       <workItem from="1582213651136" duration="42361000" />
-      <workItem from="1582342130415" duration="27239000" />
+      <workItem from="1582342130415" duration="27591000" />
     </task>
     <servers />
   </component>
@@ -416,54 +373,54 @@
       <screen x="75" y="0" width="1973" height="1152" />
     </state>
     <state x="779" y="413" key="FileChooserDialogImpl/75.0.1973.1152@75.0.1973.1152" timestamp="1582297689075" />
-    <state width="1330" height="319" key="GridCell.Tab.0.bottom" timestamp="1582383197712">
+    <state width="1930" height="319" key="GridCell.Tab.0.bottom" timestamp="1582389262230">
       <screen x="75" y="0" width="1973" height="1152" />
     </state>
-    <state width="1330" height="319" key="GridCell.Tab.0.bottom/75.0.1973.1152@75.0.1973.1152" timestamp="1582383197712" />
-    <state width="1330" height="319" key="GridCell.Tab.0.center" timestamp="1582383197711">
+    <state width="1930" height="319" key="GridCell.Tab.0.bottom/75.0.1973.1152@75.0.1973.1152" timestamp="1582389262230" />
+    <state width="1930" height="319" key="GridCell.Tab.0.center" timestamp="1582389262229">
       <screen x="75" y="0" width="1973" height="1152" />
     </state>
-    <state width="1330" height="319" key="GridCell.Tab.0.center/75.0.1973.1152@75.0.1973.1152" timestamp="1582383197711" />
-    <state width="1330" height="319" key="GridCell.Tab.0.left" timestamp="1582383197711">
+    <state width="1930" height="319" key="GridCell.Tab.0.center/75.0.1973.1152@75.0.1973.1152" timestamp="1582389262229" />
+    <state width="1930" height="319" key="GridCell.Tab.0.left" timestamp="1582389262229">
       <screen x="75" y="0" width="1973" height="1152" />
     </state>
-    <state width="1330" height="319" key="GridCell.Tab.0.left/75.0.1973.1152@75.0.1973.1152" timestamp="1582383197711" />
-    <state width="1330" height="319" key="GridCell.Tab.0.right" timestamp="1582383197712">
+    <state width="1930" height="319" key="GridCell.Tab.0.left/75.0.1973.1152@75.0.1973.1152" timestamp="1582389262229" />
+    <state width="1930" height="319" key="GridCell.Tab.0.right" timestamp="1582389262229">
       <screen x="75" y="0" width="1973" height="1152" />
     </state>
-    <state width="1330" height="319" key="GridCell.Tab.0.right/75.0.1973.1152@75.0.1973.1152" timestamp="1582383197712" />
-    <state width="1330" height="319" key="GridCell.Tab.1.bottom" timestamp="1582383197712">
+    <state width="1930" height="319" key="GridCell.Tab.0.right/75.0.1973.1152@75.0.1973.1152" timestamp="1582389262229" />
+    <state width="1330" height="319" key="GridCell.Tab.1.bottom" timestamp="1582389262225">
       <screen x="75" y="0" width="1973" height="1152" />
     </state>
-    <state width="1330" height="319" key="GridCell.Tab.1.bottom/75.0.1973.1152@75.0.1973.1152" timestamp="1582383197712" />
-    <state width="1330" height="319" key="GridCell.Tab.1.center" timestamp="1582383197712">
+    <state width="1330" height="319" key="GridCell.Tab.1.bottom/75.0.1973.1152@75.0.1973.1152" timestamp="1582389262225" />
+    <state width="1330" height="319" key="GridCell.Tab.1.center" timestamp="1582389262225">
       <screen x="75" y="0" width="1973" height="1152" />
     </state>
-    <state width="1330" height="319" key="GridCell.Tab.1.center/75.0.1973.1152@75.0.1973.1152" timestamp="1582383197712" />
-    <state width="1330" height="319" key="GridCell.Tab.1.left" timestamp="1582383197712">
+    <state width="1330" height="319" key="GridCell.Tab.1.center/75.0.1973.1152@75.0.1973.1152" timestamp="1582389262225" />
+    <state width="1330" height="319" key="GridCell.Tab.1.left" timestamp="1582389262225">
       <screen x="75" y="0" width="1973" height="1152" />
     </state>
-    <state width="1330" height="319" key="GridCell.Tab.1.left/75.0.1973.1152@75.0.1973.1152" timestamp="1582383197712" />
-    <state width="1330" height="319" key="GridCell.Tab.1.right" timestamp="1582383197712">
+    <state width="1330" height="319" key="GridCell.Tab.1.left/75.0.1973.1152@75.0.1973.1152" timestamp="1582389262225" />
+    <state width="1330" height="319" key="GridCell.Tab.1.right" timestamp="1582389262225">
       <screen x="75" y="0" width="1973" height="1152" />
     </state>
-    <state width="1330" height="319" key="GridCell.Tab.1.right/75.0.1973.1152@75.0.1973.1152" timestamp="1582383197712" />
-    <state width="1330" height="319" key="GridCell.Tab.2.bottom" timestamp="1582383197714">
+    <state width="1330" height="319" key="GridCell.Tab.1.right/75.0.1973.1152@75.0.1973.1152" timestamp="1582389262225" />
+    <state width="1330" height="319" key="GridCell.Tab.2.bottom" timestamp="1582389262226">
       <screen x="75" y="0" width="1973" height="1152" />
     </state>
-    <state width="1330" height="319" key="GridCell.Tab.2.bottom/75.0.1973.1152@75.0.1973.1152" timestamp="1582383197714" />
-    <state width="1330" height="319" key="GridCell.Tab.2.center" timestamp="1582383197713">
+    <state width="1330" height="319" key="GridCell.Tab.2.bottom/75.0.1973.1152@75.0.1973.1152" timestamp="1582389262226" />
+    <state width="1330" height="319" key="GridCell.Tab.2.center" timestamp="1582389262225">
       <screen x="75" y="0" width="1973" height="1152" />
     </state>
-    <state width="1330" height="319" key="GridCell.Tab.2.center/75.0.1973.1152@75.0.1973.1152" timestamp="1582383197713" />
-    <state width="1330" height="319" key="GridCell.Tab.2.left" timestamp="1582383197713">
+    <state width="1330" height="319" key="GridCell.Tab.2.center/75.0.1973.1152@75.0.1973.1152" timestamp="1582389262225" />
+    <state width="1330" height="319" key="GridCell.Tab.2.left" timestamp="1582389262225">
       <screen x="75" y="0" width="1973" height="1152" />
     </state>
-    <state width="1330" height="319" key="GridCell.Tab.2.left/75.0.1973.1152@75.0.1973.1152" timestamp="1582383197713" />
-    <state width="1330" height="319" key="GridCell.Tab.2.right" timestamp="1582383197713">
+    <state width="1330" height="319" key="GridCell.Tab.2.left/75.0.1973.1152@75.0.1973.1152" timestamp="1582389262225" />
+    <state width="1330" height="319" key="GridCell.Tab.2.right" timestamp="1582389262225">
       <screen x="75" y="0" width="1973" height="1152" />
     </state>
-    <state width="1330" height="319" key="GridCell.Tab.2.right/75.0.1973.1152@75.0.1973.1152" timestamp="1582383197713" />
+    <state width="1330" height="319" key="GridCell.Tab.2.right/75.0.1973.1152@75.0.1973.1152" timestamp="1582389262225" />
     <state x="322" y="230" key="SettingsEditor" timestamp="1582205558541">
       <screen x="75" y="0" width="1973" height="1152" />
     </state>
